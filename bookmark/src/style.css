@@ -22,6 +22,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
+ 
 }
 
 .cont_header nav{
@@ -248,6 +249,7 @@ header{
   font-size: 30px;
   transform: rotate(180deg);
   cursor: pointer;
+  color: #5368DF;
 }
 
 .eliminar{
@@ -506,10 +508,12 @@ hr{
 }
 
 .cont_divs{
-  background-image: url(assets/fondo3.png);
+  background-image: url(assets/fondo5.png);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
+ padding-top: 10px;
+  padding-bottom: 100px;
 }
 
 .div_oculto1 h3{
@@ -525,8 +529,32 @@ hr{
   font-weight: lighter;
 }
 
+.acordeon1 p{
+  line-height: 28px;
+}
+
+.acordeon2 p{
+  line-height: 28px;
+}
+
+.acordeon3 p{
+  line-height: 28px;
+}
+
+.acordeon4 p{
+  line-height: 28px;
+}
 
 
+.div1_cont_footer a:not(:last-child){
+  color: white;
+}
+
+.c_autor a{
+color: #5368DF;
+
+
+}
 
 
 
@@ -616,6 +644,11 @@ hr{
 .cont_input input{
   width: 100%;
 }
+
+.cont_footer{
+  width: 95%;
+}
+
 
 
 }
@@ -769,6 +802,10 @@ hr{
 .div1_cont_footer{
   flex-direction: column;
   text-align: center;
+}
+
+footer{
+  padding-bottom: 50px;
 }
 
 

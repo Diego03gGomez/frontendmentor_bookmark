@@ -336,7 +336,9 @@ the click of a button.</h3>
     <a >FEATURES</a>
     <a >PRICING</a>
     <a >CONTACT</a>
+    <h4 class="c_autor"  >Challenge by <a target="blank" href="https://github.com/Diego03gGomez/frontendmentor_bookmark">Diego Gomez</a></h4>
     </div>
+ 
 
 
     <div class="redes">
@@ -380,9 +382,9 @@ the click of a button.</h3>
 export default {
     methods: {
         mostrar_div1(event) {
-$(".div_oculto2").hide();;
-$(".div_oculto3").hide();;
-$(".div_oculto1").show();
+$(".div_oculto2").hide(400);;
+$(".div_oculto3").hide(400);;
+$(".div_oculto1").show(400);
 
 let links = document.querySelector(".cont_filtros").querySelectorAll("a");
 links.forEach((e) => {
@@ -395,9 +397,9 @@ link.classList.add("estilo_link")
 
         },
         mostrar_div2(event) {
-$(".div_oculto1").hide();
-$(".div_oculto3").hide();
-$(".div_oculto2").show();
+$(".div_oculto1").hide(400);
+$(".div_oculto3").hide(400);
+$(".div_oculto2").show(400);
 let links = document.querySelector(".cont_filtros").querySelectorAll("a");
 links.forEach((e) => {
   e.classList.remove("estilo_link")
@@ -408,9 +410,9 @@ link.classList.add("estilo_link")
 
         },
         mostrar_div3(event) {
-$(".div_oculto1").hide();
-$(".div_oculto2").hide();
-$(".div_oculto3").show();
+$(".div_oculto1").hide(400);
+$(".div_oculto2").hide(400);
+$(".div_oculto3").show(400);
 let links = document.querySelector(".cont_filtros").querySelectorAll("a");
 links.forEach((e) => {
   e.classList.remove("estilo_link")
