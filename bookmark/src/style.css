@@ -433,6 +433,7 @@ footer{
   transition: all 0.30s;
   background-color: #5368DF;
   position: fixed;
+  top: 0;
   right: 0;
   width: 1%;
   height: 100%;
