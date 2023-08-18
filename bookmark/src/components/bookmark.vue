@@ -342,6 +342,7 @@ the click of a button.</h3>
 
 
     <div class="redes">
+      <a class="linkedin" target="blank" href="https://www.linkedin.com/in/diego-gomez-65b655260/"><i class="fa-brands fa-linkedin"></i></a> 
     <i class="fa-brands fa-square-facebook"></i>
     <i class="fa-brands fa-twitter"></i>
 </div>
