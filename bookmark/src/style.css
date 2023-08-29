@@ -513,7 +513,8 @@ hr{
 }
 
 .cont_divs{
-  background-image: url(assets/fondo5.png);
+  background-image: url(assets/f2.png);
+ /* background-image: url(assets/Captura\ de\ pantalla\ 2023-08-29\ 113335.png);*/
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
